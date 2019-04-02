@@ -1,0 +1,4 @@
+# Ignore the following
+__pycache__
+.vscode
+flask_session
