@@ -1,0 +1,23 @@
+{% block heading %}
+    Notes
+{% endblock %}
+
+{% block body %}
+    <ul>
+        {% for note in notes %}
+            <li>{{ note }}</li>
+        {% endfor %}
+    </ul>
+
+    <!--Add add_note function in app.py-->
+    <form action="{{ url_for('add_note') }}" method="post">
+        <input type="text" name="note" placeholder="Enter Note Here">
+        <button>Add Note</button>
+    </form>
+
+    <!--Add a logout button-->
+    <form action="{{ url_for('logout') }}">
+        <button>LOGOUT</button>
+    </form>
+
+{% endblock %}
