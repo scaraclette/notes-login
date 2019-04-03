@@ -14,5 +14,6 @@
 <ul>
     <li>My first backend implementation in a project. Used HTML, Flask, and Postgresql.</li>
     <li>I realized how helpful git can be in terms of adding and testing different features.</li>
+    <li>Created a functional login/signup/logout page</li>
     <li>Understanding user sessions and how it affects user cookies.</li>
 </ul>
